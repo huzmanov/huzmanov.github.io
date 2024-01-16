@@ -3,26 +3,19 @@
     padding-right: 12rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    /* Set rules to fill background */
-     min-height: 100%;
-    min-width: 1024px;
-	
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-	
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.wbg{
-    /* background-color: rgb(22, 56, 76); */
+    min-width: 750px;
     background-color: rgb(85, 142, 157);
 }
 
+
+
 .cbg{
-    /* background-color: rgb(77, 161, 181); */
+
     background-color: rgb(22, 56, 76);
+}
+
+.picsize{
+    border-radius: 200px;
+    height: 50%;
+    vertical-align: middle;
 }
