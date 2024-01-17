@@ -16,6 +16,10 @@
 
 .picsize{
     border-radius: 200px;
-    height: 50%;
+    margin-top: 10%;
     vertical-align: middle;
+}
+
+.card-margin{
+    padding: 0% 10% 0% 5%;
 }
