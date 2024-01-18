@@ -1,8 +1,5 @@
 .cp-12 {
-    padding-left: 12rem;
-    padding-right: 12rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding: 7rem 12rem 7rem 12rem;
     min-width: 750px;
     background-color: rgb(85, 142, 157);
 }
@@ -17,7 +14,6 @@
 .picsize{
     border-radius: 200px;
     margin-top: 10%;
-    vertical-align: middle;
 }
 
 .card-margin{
