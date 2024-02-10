@@ -33,3 +33,35 @@
     min-height: 10rem;
     
 }
+
+.abt-btn-bg{
+    /* Inactive */
+    min-width: 100%;
+    text-align: left;
+    --bs-btn-bg:none;
+    padding: 25px;
+    
+    /* Hover */
+    --bs-btn-hover-bg: rgba(86, 133, 172, 0.814);
+
+    /* Active */
+    --bs-btn-active-bg: rgb(53, 119, 172);
+    
+}
+
+.abt-btn-bdr {
+    /* Inactive */
+    
+    border-top-color: rgb(99, 139, 171);
+    border-bottom: none;
+    border-right:none;
+    border-left:none;
+    --bs-btn-border-radius: none;
+    
+    /* Hover */
+    --bs-btn-hover-border-color: rgba(59, 121, 171, 0.814);
+    
+
+    /* Active */
+    --bs-btn-active-border-color: rgb(37, 111, 172);
+}
