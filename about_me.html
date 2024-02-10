@@ -13,7 +13,7 @@
 <body style="background-color:rgb(192 217 255);">
   <div class="cp-12 wbg">
     <div class="card rounded-5 cbg">
-      <div class="row g-0 t">
+      <div class="row g-0">
         <nav class="navbar navbar-expand-lg cbg rounded-top-5">
           <div class="container-fluid text-light">
             <a class="navbar-brand ms-4 me-5 fs-3 text-reset" href="#">Husan Usmanov</a>
@@ -42,10 +42,16 @@
       </div>
       <div class="row g-0">
         <div class="col text-light card-margin align-self-center">
-          <h5 class="card-title" style="padding-top: 2%;">About me</h5>
+          <h5 class="card-title" style="padding-top: 2%;">About me (IN PROGRESS)</h5>
         </div>
       </div>
-      <div class="row g-0 border-top" style="margin-top: 2%;">
+
+      <div class="d-inline-flex gap-1">
+          <button class="btn btn-primary abt-btn-bg abt-btn-bdr" type="button" data-bs-toggle="collapse" data-bs-target="#NLS" aria-expanded="false" aria-controls="collapseExample">
+          2023-2024 | New Line Structures
+        </button>
+      </div>
+      <div class="row g-0 collapse" class="collapse" id="NLS">
         <div class="col-md-7 text-light card-margin align-self-center" style="min-height: 150px;">
           <p class="card-text" style="margin-top: 12%;">This section is all about my professional journey.</p>
         </div>
@@ -53,15 +59,13 @@
           <img src="newline_logo.png" class="img-fluid timeline-pic">
         </div>
       </div>
-      <div class="row g-0 border-top" style="margin-top: 2%;">
-        <div class="col-md-5 text-light card-margin text-center">
-          <img src="newline_logo.png" class="img-fluid timeline-pic">
-        </div>
-        <div class="col-md-7 text-light card-margin align-self-center" style="min-height: 150px;">
-          <p class="card-text" style="margin-top: 12%;">This section is all about my professional journey.</p>
-        </div>
+      
+      <div class="d-inline-flex gap-1">
+          <button class="btn btn-primary abt-btn-bg abt-btn-bdr" type="button" data-bs-toggle="collapse" data-bs-target="#SU" aria-expanded="false" aria-controls="collapseExample">
+          2018-2022 | Syracuse University
+        </button>
       </div>
-      <div class="row g-0 border-top" style="margin-top: 2%;">
+      <div class="row g-0 collapse" class="collapse" id="SU">
         <div class="col-md-7 text-light card-margin align-self-center" style="min-height: 150px;">
           <p class="card-text" style="margin-top: 12%;">This section is all about my professional journey.</p>
         </div>
@@ -69,14 +73,7 @@
           <img src="newline_logo.png" class="img-fluid timeline-pic">
         </div>
       </div>
-      <div class="row g-0 border-top" style="margin-top: 2%;">
-        <div class="col-md-5 text-light card-margin text-center">
-          <img src="newline_logo.png" class="img-fluid timeline-pic">
-        </div>
-        <div class="col-md-7 text-light card-margin align-self-center" style="min-height: 150px;">
-          <p class="card-text" style="margin-top: 12%;">This section is all about my professional journey.</p>
-        </div>
-      </div>
+
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
