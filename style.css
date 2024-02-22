@@ -7,7 +7,7 @@
 
 .cbg{
 
-    background-color: rgb(69 125 170);
+    background-color: rgba(28, 108, 137, 0.739);
 }
 
 .picsize{
@@ -20,7 +20,7 @@
 }
 
 .timeline-pic{
-    max-height: 125px;
+    max-height: 150px;
     margin-top: 4%;
     margin-bottom: 2%;
 }
