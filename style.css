@@ -4,64 +4,78 @@
 }
 
 
-
-.cbg{
-
-    background-color: rgba(28, 108, 137, 0.739);
+.bdbg {
+    background-color: rgba(224, 224, 224, 0.46);
 }
 
-.picsize{
+.cbg {
+    background-color: rgba(255, 255, 255, 0.63);
+    border: none;
+}
+
+.picsize {
     border-radius: 200px;
     margin-top: 10%;
+    max-height: 30rem;
 }
 
-.card-margin{
+.card-margin {
     padding: 0% 5% 0% 5%;
 }
 
-.timeline-pic{
+.timeline-pic {
     max-height: 150px;
     margin-top: 4%;
     margin-bottom: 2%;
 }
 
-.contact-padding{
+.contact-padding {
     padding-top: 2%;
 }
 
-.message-height{
+.message-height {
     min-height: 10rem;
-    
+
 }
 
-.abt-btn-bg{
+.abt-btn-bg {
     /* Inactive */
     min-width: 100%;
     text-align: left;
-    --bs-btn-bg:none;
-    padding: 25px;
-    
+    --bs-btn-bg: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
     /* Hover */
     --bs-btn-hover-bg: rgba(86, 133, 172, 0.814);
 
     /* Active */
     --bs-btn-active-bg: rgb(53, 119, 172);
-    
+
 }
 
 .abt-btn-bdr {
     /* Inactive */
-    
-    border-top-color: rgb(99, 139, 171);
+
+    /* border-top-color: rgb(99, 139, 171); */
+    border-top: none;
     border-bottom: none;
-    border-right:none;
-    border-left:none;
+    border-right: none;
+    border-left: none;
     --bs-btn-border-radius: none;
-    
+
     /* Hover */
     --bs-btn-hover-border-color: rgba(59, 121, 171, 0.814);
-    
+
 
     /* Active */
     --bs-btn-active-border-color: rgb(37, 111, 172);
 }
+
+.bg-1 {
+    /* background-image: url('./Patterns/rocks_pattern.png'); */
+    background-color: rgb(58, 56, 56);
+    height: 100%;
+    width: 100%;
+}
+
