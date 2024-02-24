@@ -16,17 +16,27 @@
 .picsize {
     border-radius: 200px;
     margin-top: 10%;
-    max-height: 30rem;
+    max-height: 26rem;
 }
 
 .card-margin {
     padding: 0% 5% 0% 5%;
 }
 
+.card-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.my-card{
+    min-height: 90vh;
+    min-width: 80%;
+}
+
 .timeline-pic {
-    max-height: 150px;
-    margin-top: 4%;
-    margin-bottom: 2%;
+    max-height: 175px;
 }
 
 .contact-padding {
@@ -58,7 +68,7 @@
     /* Inactive */
 
     /* border-top-color: rgb(99, 139, 171); */
-    border-top: none;
+    border-top-color: black;
     border-bottom: none;
     border-right: none;
     border-left: none;
