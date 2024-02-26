@@ -15,7 +15,6 @@
 
 .picsize {
     border-radius: 200px;
-    margin-top: 10%;
     max-height: 26rem;
 }
 
@@ -91,5 +90,15 @@
     background-color: rgb(58, 56, 56);
     height: 100%;
     width: 100%;
+}
+
+.navbar-clickable:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 10px;
+}
+
+.navbar-clickable:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
 
